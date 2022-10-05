@@ -18,3 +18,15 @@ aside{
     color: #fff;
     padding-bottom: 10px;
 }
+
+.id-profile img{
+    background-color: #6c6c6c;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.download-app{
+    margin-top: 5rem;
+}
