@@ -13,7 +13,12 @@ img{
 .container-main{
     display: flex;
     height: calc(100% - 80px);
-    background-color: aqua;
+    background-color: #141922;
+}
+
+.link-style{
+    color: #6c6c6c;
+    text-decoration: none;
 }
 /* ------------
     BUTTON
@@ -24,11 +29,55 @@ button{
     border: none;
 }
 
-.btn{
+/* -- Header -- */
+.btn-header{
     padding: 15px 40px;
     border: 1px solid #e0e0e1;
     border-radius: 30px;
+}
 
+.btn-download{
+    border: 1px solid #6c6c6c;
+    border-radius: 50%;
+}
+/* ------------
+    FLEX
+------------ */
+.flex{
+    display: flex;
+}
+
+.items-center{
+    justify-content: center;
+}
+
+.items-end{
+    align-items: flex-end;
+}
 /* ------------
     PADDING
 ------------ */
+.p-20{
+    padding: 20px;
+}
+.p-top-20{
+    padding-top: 20px;
+}
+.p-bottom-20{
+    padding-bottom: 20px;
+}
+
+.p-left-20{
+    padding-left: 20px;
+}
+
+.p-bottom-5{
+    padding-bottom: 5px;
+}
+/* ------------
+    TYPO
+------------ */
+
+.icon-size{
+    font-size: 24px;
+}

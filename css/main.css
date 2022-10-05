@@ -3,4 +3,5 @@
 ------------ */
 main{
     width: calc(100% - 300px);
+    overflow-y: auto;
 }

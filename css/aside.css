@@ -3,5 +3,18 @@
 ------------ */
 aside{
     width: 300px;
-    background-color: blueviolet;
+    background-color: #000;
+}
+
+.logo-big{
+    padding: 20px 30px 0 20px;
+}
+
+.logo-big img{
+    max-width: 70%;
+}
+
+.nav-playlist h4{
+    color: #fff;
+    padding-bottom: 10px;
 }

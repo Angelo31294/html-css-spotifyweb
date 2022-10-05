@@ -5,7 +5,13 @@ header{
     position: fixed;
     left: 300px;
     right: 0;
+    z-index: 10;
     background-color: rgba(8, 11, 18, 0.5);
-    padding: 20px 5px 20px 0;
+    padding: 20px 10px 20px 0;
     text-align: end;
+}
+
+header .btn-header:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
