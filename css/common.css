@@ -15,3 +15,20 @@ img{
     height: calc(100% - 80px);
     background-color: aqua;
 }
+/* ------------
+    BUTTON
+------------ */
+button{
+    background-color: transparent;
+    color: #e0e0e1;
+    border: none;
+}
+
+.btn{
+    padding: 15px 40px;
+    border: 1px solid #e0e0e1;
+    border-radius: 30px;
+
+/* ------------
+    PADDING
+------------ */
