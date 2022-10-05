@@ -1,7 +1,17 @@
+/* ------------
+    COMMON
+------------ */
 body{
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 img{
     max-width: 100%;
+}
+
+.container-main{
+    display: flex;
+    height: calc(100% - 80px);
+    background-color: aqua;
 }
