@@ -30,8 +30,8 @@ li img{
 
 .id-profile img{
     background-color: #6c6c6c;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -47,7 +47,7 @@ display: none;
 @media screen and (max-width: 600px) {
 
     aside{
-        width: 50px;
+        max-width: 50px;
     }
 
     .logo-big{
