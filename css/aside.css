@@ -54,11 +54,15 @@ display: none;
         display: none;
     }
 
-    .mobile-mode{
+    .logo-small{
         display: block;
     }
 
     .logo-small{
         width: 3.125rem;
+    }
+
+    .mobile-mode{
+        display: none;
     }
 }
