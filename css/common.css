@@ -24,6 +24,10 @@ img{
     color: #6c6c6c;
     text-decoration: none;
 }
+
+.link-style:hover{
+    color: #fff;
+}
 /* ------------
     BUTTON
 ------------ */
@@ -47,10 +51,21 @@ button{
     display: flex;
 }
 
-.items-center{
+.wrap{
+    flex-wrap: wrap;
+}
+
+.direction-colum{
+    flex-direction: column;
+}
+
+.content-center{
     justify-content: center;
 }
 
+.items-center{
+    align-items: center;
+}
 .items-end{
     align-items: flex-end;
 }
@@ -81,6 +96,9 @@ button{
 
 .p-left-5{
     padding-left: 5px;
+}
+.p-right-5{
+    padding-right: 5px;
 }
 /* ------------
     TYPO

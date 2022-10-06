@@ -2,10 +2,12 @@
     HEADER
 ------------ */
 header{
-    position: fixed;
-    left: 300px;
+    position: sticky;
+    top: 0;
     right: 0;
+    left: 0;
     z-index: 10;
+    max-width: 100%;
     background-color: rgba(8, 11, 18, 0.5);
     padding: 20px 10px 20px 0;
     text-align: end;
