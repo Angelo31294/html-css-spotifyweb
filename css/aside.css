@@ -50,6 +50,25 @@ display: none;
         max-width: 50px;
     }
 
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+    .nav-primary{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-playlist{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
     .logo-big{
         display: none;
     }
@@ -58,8 +77,9 @@ display: none;
         display: block;
     }
 
-    .logo-small{
-        width: 3.125rem;
+    .download-app{
+        padding: 0;
+        margin-left: 10px;
     }
 
     .mobile-mode{
