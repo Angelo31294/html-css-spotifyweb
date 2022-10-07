@@ -7,7 +7,7 @@ footer{
 }
 
 .play-left{
-    max-width: 20%;
+    max-width: 30%;
     height: 80px;
     border: 2px dashed red;
     align-items: center;
@@ -19,7 +19,7 @@ footer{
 }
 
 .play-center{
-    width: 60%;
+    width: 40%;
     height: 80px;
     border: 2px dashed red;
 }
@@ -57,11 +57,35 @@ footer{
 }
 
 .play-right{
-    width: 20%;
+    width: 30%;
     height: 80px;
     border: 2px dashed red;
 }
 
-.play-brano h5{
-    font-size: 8px;
+.sound-bar-center{
+    width: 400px;
+    height: 5px;
+    background-color: #6c6c6c;
+}
+
+.time{
+    margin: 0 20px;
+}
+
+.time-bar{
+    max-width: 75px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.sound-level{
+    width: 100px;
+    height: 5px;
+    background-color: #6c6c6c;
+}
+
+.volume{
+    width: 20px;
+    height: 5px;
+    background-color: #fff;
 }
