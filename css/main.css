@@ -12,7 +12,20 @@ main{
     text-align: center;
 }
 
+.nav-main li{
+    position: relative;
+}
 
+.nav-main li:first-child::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 3px;
+    background-color: yellowgreen;
+}
 
 .play-hover{
     display: none;
