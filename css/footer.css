@@ -9,7 +9,6 @@ footer{
 .play-left{
     max-width: 30%;
     height: 80px;
-    border: 2px dashed red;
     align-items: center;
 }
 
@@ -20,14 +19,11 @@ footer{
 
 .play-center{
     width: 40%;
-    height: 80px;
-    border: 2px dashed red;
 }
 
 .play-top-center{
     max-width: 100%;
     height: 50%;
-    border: 2px dashed blue;
     align-items: center;
 }
 
@@ -52,14 +48,10 @@ footer{
 
 .play-bottom-center{
     max-width: 100%;
-    height: 50%;
-    border: 2px dashed green;
 }
 
 .play-right{
-    width: 30%;
-    height: 80px;
-    border: 2px dashed red;
+    max-width: 30%;
 }
 
 .sound-bar-center{
@@ -88,4 +80,17 @@ footer{
     width: 20px;
     height: 5px;
     background-color: #fff;
+}
+
+@media screen and (max-width: 700px){
+    
+    .time-bar{
+        max-width: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    
+    .time-bar{
+        max-width: 20px;
+    }
 }

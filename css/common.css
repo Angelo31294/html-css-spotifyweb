@@ -95,6 +95,9 @@ button{
 .p-10{
     padding: 10px;
 }
+.m-10{
+    margin: 10px;
+}
 
 .p-top-20{
     padding-top: 20px;
@@ -120,6 +123,16 @@ button{
 }
 .p-right-5{
     padding-right: 5px;
+}
+
+.m-top-20{
+    margin-top: 20px;
+}
+.m-left-20{
+    margin-left: 20px;
+}
+.m-right-20{
+    margin-right: 20px;
 }
 /* ------------
     TYPO

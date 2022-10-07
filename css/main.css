@@ -12,6 +12,23 @@ main{
     text-align: center;
 }
 
+
+
+.play-hover{
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    max-width: 174px;
+    max-height: 174px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+}
+
+.play-hover:hover{
+    display: block;
+}
+
 small{
     color: #6c6c6c;
 }
